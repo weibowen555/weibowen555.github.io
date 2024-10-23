@@ -22,19 +22,19 @@ Work experience
 * Summar 2022: Research Assistant
   * Carnegie Mellon University
   <!-- * Duties included: Merging pull requests -->
-  * Supervisor: Professor Hub
+  * Advisor: Professor Hub
 
 * Summar 2020: Research Assistant
   * CAICT
   <!-- * Duties includes: Updates and improvements to template -->
-  * Supervisor: Prof.Tongning Wu
+  * Advisor: Prof.Tongning Wu
 
 * Summer 2019: Research Assistant
   * Tsinghua University
   <!-- * Duties included: Tagging issues -->
-  * Supervisor: Professor Fuchun Sun
+  * Advisor: Prof.Fuchun Sun
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -60,7 +60,7 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+   -->
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
