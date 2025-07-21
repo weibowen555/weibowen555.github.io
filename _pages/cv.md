@@ -7,60 +7,71 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
 
-Education
-======
-* Ph.D in Computer Science, George Mason University, 2027 (expected)
-* M.S. in Computer Science, University of Virginia, 2023
-* B.S. in Computer Science, Xidian University, 2021
+<!-- Contact Info Section -->
+**Bowen Wei**  
+Fairfax, VA  
+Email: [bwei2@gmu.edu](mailto:bwei2@gmu.edu)  
+Phone: +1 (434) 254-9053  
+LinkedIn: [linkedin.com/in/bowen-wei-9485a1192](https://www.linkedin.com/in/bowen-wei-9485a1192/)
 
-Work experience
-======
+---
 
+## Research Interest
 
-* Summar 2022: Research Assistant
-  * Carnegie Mellon University
-  <!-- * Duties included: Merging pull requests -->
-  * Advisor: Professor Hub
+My research centers on trustworthy AI, with interpretability at its core. I design models and tools that help users understand how AI systems reach their decisions. I also study related challenges in security, fairness, and agent design, aiming to keep AI agents reliable and protected against misuse. Ultimately, I seek to create AI systems that work well in practice while remaining transparent, fair, and resilient.
 
-* Summar 2020: Research Assistant
-  * CAICT
-  <!-- * Duties includes: Updates and improvements to template -->
-  * Advisor: Prof.Tongning Wu
+---
 
-* Summer 2019: Research Assistant
-  * Tsinghua University
-  <!-- * Duties included: Tagging issues -->
-  * Advisor: Prof.Fuchun Sun
-  
-<!-- Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-   -->
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+- **Ph.D. in Computer Science**, George Mason University, Fairfax, VA (Expected 2028)
+- **Master of Computer Science**, University of Virginia (2021–2023)
+- **Bachelor of Computer Science**, Xidian University (2016–2021)
+
+---
+
+## Publications
+
+- **[ACL 2025 Main]** Bowen Wei, Ziwei Zhu. _ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification._
+- **[In submission]** Bowen Wei, Ziwei Zhu. _Neural Symbolic Logical Rule Learner for Interpretable Learning._
+- **[In submission]** Bowen Wei, Ziwei Zhu. _Learning to Explain: Prototype-Based Surrogate Models for LLM Classification._
+- **[In submission]** Chahat Raj, Bowen Wei, Ziwei Zhu. _VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models._
+- **[In submission]** Mehrdad Fazli, Bowen Wei, Ziwei Zhu. _Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._
+- **[MSc thesis]** Bowen Wei, Yiling Jia, Hongning Wang. _An Empirical Study of Neural Contextual Bandit Algorithms._
+
+---
+
+## Internship
+
+**AI Agents Developer**, Fluency Security  
+_Jun. 2025 -- Present_  
+- Designed and implemented a multi-agent system for security ticket analysis using the MCP framework  
+- Centralized agent initialization via a configurable file enabling users to customize prompt settings without modifying the codebase  
+- Integrated the client-side application with a RESTful backend service, establishing a robust communication pipeline for real-time data streaming
+
+**GenAI Engineer**, GoEngage  
+_Jun. 2025 -- Present_  
+- Implemented a semantic search engine that replaced brittle keyword matching and improved retrieval accuracy  
+- Developed an LLM-powered agentic chatbot that autonomously queries backend APIs and generates clear analytical reports for non-technical users
+
+---
+
+## Awards & Achievements
+
+- Scholarship for Academic Excellence of Xidian University (top 3%)
+- Outstanding Student of the School of Computer Science and Technology (top 3%)
+
+---
+
+## Professional Service
+
+- Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP), KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
