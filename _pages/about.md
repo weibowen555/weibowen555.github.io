@@ -33,12 +33,12 @@ My research centers on trustworthy AI, with interpretability at its core. I desi
 
 ## Publications
 
-- **[ACL 2025 Main]** **Bowen Wei**, Ziwei Zhu.  [_ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification._](https://your-acl2025-paper-link.com)
-- **[In submission]** **Bowen Wei**, Ziwei Zhu. _Neural Symbolic Logical Rule Learner for Interpretable Learning._
-- **[In submission]** **Bowen Wei**, Ziwei Zhu. _Learning to Explain: Prototype-Based Surrogate Models for LLM Classification._
-- **[In submission]** Chahat Raj, **Bowen Wei**, Ziwei Zhu. _VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models._
-- **[In submission]** Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu. _Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._
-- **[MSc thesis]** **Bowen Wei**, Yiling Jia, Hongning Wang. _An Empirical Study of Neural Contextual Bandit Algorithms._
+- **[ACL 2025 Main]** **Bowen Wei**, Ziwei Zhu. [_ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification._](https://your-acl2025-paper-link.com)
+- **[In submission]** **Bowen Wei**, Ziwei Zhu. [_Neural Symbolic Logical Rule Learner for Interpretable Learning._](https://your-nsrlr-paper-link.com)
+- **[In submission]** **Bowen Wei**, Ziwei Zhu. [_Learning to Explain: Prototype-Based Surrogate Models for LLM Classification._](https://your-learn2explain-paper-link.com)
+- **[In submission]** Chahat Raj, **Bowen Wei**, Ziwei Zhu. [_VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models._](https://your-vignette-paper-link.com)
+- **[In submission]** Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu. [_Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._](https://your-hallucination-paper-link.com)
+- **[MSc thesis]** **Bowen Wei**, Yiling Jia, Hongning Wang. [_An Empirical Study of Neural Contextual Bandit Algorithms._](https://your-thesis-link.com)
 
 ---
 
