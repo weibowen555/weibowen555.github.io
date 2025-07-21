@@ -8,30 +8,63 @@ redirect_from:
 ---
 
 
-Publications & Manuscripts
------
 
+<!-- Contact Info Section -->
+**Bowen Wei**  
+Fairfax, VA  
+Email: [bwei2@gmu.edu](mailto:bwei2@gmu.edu)  
+Phone: +1 (434) 254-9053  
+LinkedIn: [linkedin.com/in/bowen-wei-9485a1192](https://www.linkedin.com/in/bowen-wei-9485a1192/)
 
-Service
-======
+---
 
+## Research Interest
 
-<!-- Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My research centers on trustworthy AI, with interpretability at its core. I design models and tools that help users understand how AI systems reach their decisions. I also study related challenges in security, fairness, and agent design, aiming to keep AI agents reliable and protected against misuse. Ultimately, I seek to create AI systems that work well in practice while remaining transparent, fair, and resilient.
 
-**Markdown generator**
+---
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Education
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Ph.D. in Computer Science**, George Mason University, Fairfax, VA (Expected 2028)
+- **Master of Computer Science**, University of Virginia (2021–2023)
+- **Bachelor of Computer Science**, Xidian University (2016–2021)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+## Publications
+
+- **[ACL 2025 Main]** Bowen Wei, Ziwei Zhu. _ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification._
+- **[In submission]** Bowen Wei, Ziwei Zhu. _Neural Symbolic Logical Rule Learner for Interpretable Learning._
+- **[In submission]** Bowen Wei, Ziwei Zhu. _Learning to Explain: Prototype-Based Surrogate Models for LLM Classification._
+- **[In submission]** Chahat Raj, Bowen Wei, Ziwei Zhu. _VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models._
+- **[In submission]** Mehrdad Fazli, Bowen Wei, Ziwei Zhu. _Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._
+- **[MSc thesis]** Bowen Wei, Yiling Jia, Hongning Wang. _An Empirical Study of Neural Contextual Bandit Algorithms._
+
+---
+
+## Internship
+
+**AI Agents Developer**, Fluency Security  
+_Jun. 2025 -- Present_  
+- Designed and implemented a multi-agent system for security ticket analysis using the MCP framework  
+- Centralized agent initialization via a configurable file enabling users to customize prompt settings without modifying the codebase  
+- Integrated the client-side application with a RESTful backend service, establishing a robust communication pipeline for real-time data streaming
+
+**GenAI Engineer**, GoEngage  
+_Jun. 2025 -- Present_  
+- Implemented a semantic search engine that replaced brittle keyword matching and improved retrieval accuracy  
+- Developed an LLM-powered agentic chatbot that autonomously queries backend APIs and generates clear analytical reports for non-technical users
+
+---
+
+## Awards & Achievements
+
+- Scholarship for Academic Excellence of Xidian University (top 3%)
+- Outstanding Student of the School of Computer Science and Technology (top 3%)
+
+---
+
+## Professional Service
+
+- Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP), KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
