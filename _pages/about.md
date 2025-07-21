@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Bowen Wei"
 author_profile: true
 redirect_from: 
   - /about/
