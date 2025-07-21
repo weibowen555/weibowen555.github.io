@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Bowen Wei"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,13 +10,13 @@ redirect_from:
 
 
 <!-- Contact Info Section -->
-**Bowen Wei**  
-Fairfax, VA  
+
+<!-- Fairfax, VA  
 Email: [bwei2@gmu.edu](mailto:bwei2@gmu.edu)  
 Phone: +1 (434) 254-9053  
 LinkedIn: [linkedin.com/in/bowen-wei-9485a1192](https://www.linkedin.com/in/bowen-wei-9485a1192/)
 
----
+--- -->
 
 ## Research Interest
 
