@@ -44,7 +44,7 @@ My research centers on trustworthy AI, with interpretability at its core. I desi
 - **[In submission]** Fazli M, **Wei B\***, Zhu Z. [_Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._](https://arxiv.org/abs/2505.21472)
 - **[MSc thesis]** **Wei B\***, Jia Y, Wang H. [_An Empirical Study of Neural Contextual Bandit Algorithms._](https://your-thesis-link.com)
 
-</span>
+
 
 ---
 
