@@ -14,6 +14,23 @@ profile:
     Fairfax, VA
     +1 (434) 254-9053
     bwei2@gmu.edu
+
+
+
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+
 ---
 
 
@@ -24,9 +41,3 @@ symbolic, and explanation-driven methods to make model behavior transparent, and
 trust AI decisions in high-stakes settings. In parallel, I study RL and post-training techniques that distill multi-agent reasoning into single,
 verifiable agents—improving reasoning quality, evidence attribution, and causal grounding. Together, these directions aim to advance AI
 systems that are both interpretable and competent in reasoning.
-
-<!-- News and latest posts blocks -->
-{% include news.liquid %}          <!-- remove this line to hide “news” -->
-{% include latest_posts.liquid %}  <!-- remove this line to hide “latest posts” -->
-
-<!-- Selected publications section appears automatically if your BibTeX entries have `selected={true}` -->
