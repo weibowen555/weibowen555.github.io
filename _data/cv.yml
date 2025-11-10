@@ -1,106 +1,115 @@
 # CV shown at /cv/ in al-folio (when assets/json/resume.json is absent)
 # You can reorder whole sections or items freely.
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: Ph.D. in Computer Science
-#       institution: George Mason University, Fairfax, VA
-#       year: Expected 2028
-#     - title: M.S. in Computer Science
-#       institution: University of Virginia
-#       year: 2021–2023
-#     - title: B.S. in Computer Science
-#       institution: Xidian University
-#       year: 2016–2021
+# CV shown at /cv/ in al-folio (when assets/json/resume.json is absent)
 
-# - title: Research Interests
-#   type: list
-#   contents:
-#     - >
-#       Trustworthy and interpretable AI for large language models; prototype-based,
-#       symbolic, and explanation-driven methods; RL and post-training techniques for
-#       evidence-grounded, verifiable reasoning.
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: George Mason University, Fairfax, VA
+      year: Expected 2028
+    - title: M.S. in Computer Science
+      institution: University of Virginia
+      year: 2021–2023
+    - title: B.S. in Computer Science
+      institution: Xidian University
+      year: 2016–2021
 
-# - title: Publications
-#   type: list
-#   contents:
-#     - >
-#       **AAAI 2026 (Oral)** — **Bowen Wei**, Ziwei Zhu. *Making Sense of LLM Decisions:
-#       A Prototype-based Framework for Explainable Classification.*
-#     - >
-#       **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu. *CAAC: Confidence-Aware
-#       Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
-#     - >
-#       **ACL 2025 (Main)** — **Bowen Wei**, Ziwei Zhu. *ProtoLens: Advancing Prototype
-#       Learning for Fine-Grained Interpretability in Text Classification.*
-#     - >
-#       **NeurIPS 2025 LAW Workshop** — **Bowen Wei**, Yuan Shen Tay, Howard Liu,
-#       Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan. *CORTEX: Collaborative LLM Agents
-#       for High-Stakes Alert Triage.*
-#     - >
-#       **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu. *Neural Symbolic Logical
-#       Rule Learner for Interpretable Learning.*
-#     - >
-#       **In submission** — Chahat Raj, **Bowen Wei**, Ziwei Zhu. *VIGNETTE: Socially
-#       Grounded Bias Evaluation for Vision-Language Models.*
-#     - >
-#       **M.Sc. Thesis** — **Bowen Wei**, Yiling Jia, Hongning Wang. *An Empirical Study
-#       of Neural Contextual Bandit Algorithms.*
+- title: Research Interests
+  type: list
+  contents:
+    - >
+      My research spans trustworthy and interpretable AI for large language models.  
+      I develop prototype-based, symbolic, and explanation-driven methods to make model behavior  
+      transparent, fair, and robust, enabling users to understand and trust AI decisions in high-stakes settings.  
+      In parallel, I study reinforcement learning and post-training techniques that distill multi-agent reasoning  
+      into single, verifiable agents—improving reasoning quality, evidence attribution, and causal grounding.  
+      Together, these directions aim to advance AI systems that are both interpretable in their inner logic and  
+      competent in autonomous, evidence-based reasoning.
 
-# - title: Current Projects
-#   type: time_table
-#   contents:
-#     - title: Evidence-Attribution Reinforcement Learning (EA-RL)
-#       institution: Target venue — ICML 2026
-#       year: Oct 2025 – Present
-#       description:
-#         - Multi-agent LLM distillation with explicit evidence attribution/reliance
-#         - Rewarding models for *using the right evidence*, not just correctness
-#         - Evidence-aware post-training building on CoA; aims for faithful, verifiable reasoning
-#     - title: NeuroSymbolic Autoencoder for Interpretable Recommendation
-#       institution: Target venue — SIGIR 2026
-#       year: Oct 2025 – Present
-#       description:
-#         - Hybrid neural–symbolic model with rule-based latent spaces
-#         - Rule Network as encoder/decoder for transparent recommendations
-#         - Unifies neuro-symbolic learning and explainable personalization
+- title: Publications
+  type: list
+  contents:
+    - >
+      **AAAI 2026 (Oral)** — **Bowen Wei**, Ziwei Zhu.  
+      *Making Sense of LLM Decisions: A Prototype-based Framework for Explainable Classification.*  
+      _(Acceptance: 4,176 / 23,680 ≈ 17.6%)_
+    - >
+      **ACL 2025 (Main)** — **Bowen Wei**, Ziwei Zhu.  
+      *ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification.*  
+      _(Acceptance: 1,699 / 8,360 ≈ 20.3%)_
+    - >
+      **NeurIPS 2025 LAW Workshop** — **Bowen Wei**, Yuan Shen Tay, Howard Liu,  
+      Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan.  
+      *CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage.*
+    - >
+      **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu.  
+      *CAAC: Confidence-Aware Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
+    - >
+      **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu.  
+      *Neural Symbolic Logical Rule Learner for Interpretable Learning.*
+    - >
+      **In submission** — Chahat Raj, **Bowen Wei**, Ziwei Zhu.  
+      *VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models.*
+    - >
+      **M.Sc. Thesis** — **Bowen Wei**, Yiling Jia, Hongning Wang.  
+      *An Empirical Study of Neural Contextual Bandit Algorithms.*
 
-# - title: Internship
-#   type: time_table
-#   contents:
-#     - title: AI Agents Developer
-#       institution: Fluency Security
-#       year: Jun 2025 – Aug 2025
-#       description:
-#         - Proposed/built **CORTEX** multi-agent LLM architecture for SOC alert triage
-#         - Curated analyst-trace dataset (10+ scenarios) with tool outputs
-#         - Actionable F1 **0.78** (+0.12); reduced FPR to **14.2%**
-#         - NeurIPS 2025 LAW Workshop paper accepted
-#     - title: GenAI Engineer
-#       institution: GoEngage
-#       year: Jun 2025 – Aug 2025
-#       description:
-#         - Implemented semantic search beating keyword baselines
-#         - Built agentic chatbot that calls backend APIs and produces analytical reports
+- title: Current Projects
+  type: time_table
+  contents:
+    - title: Evidence-Attribution Reinforcement Learning (EA-RL)
+      institution: Target venue — ICML 2026
+      year: Oct 2025 – Present
+      description:
+        - Designing multi-agent LLM distillation with explicit evidence attribution and reliance
+        - Rewarding models for *using the right evidence*, not just correctness
+        - Building on CoA to enable faithful, verifiable reasoning
+        - Aiming to improve causal faithfulness and interpretability of reasoning models
+    - title: NeuroSymbolic Autoencoder for Interpretable Recommendation
+      institution: Target venue — SIGIR 2026
+      year: Oct 2025 – Present
+      description:
+        - Developing a hybrid neuro-symbolic model with rule-based latent spaces
+        - Using a Rule Network as both encoder and decoder for transparent recommendations
+        - Bridging symbolic reasoning and neural personalization
 
-# - title: Professional Service
-#   type: list
-#   contents:
-#     - >
-#       Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP),
-#       KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
+- title: Internship
+  type: time_table
+  contents:
+    - title: AI Agents Developer
+      institution: Fluency Security
+      year: Jun 2025 – Aug 2025
+      description:
+        - Proposed and built **CORTEX**, a multi-agent LLM architecture for SOC alert triage
+        - Curated analyst-trace dataset (10+ scenarios) with tool outputs
+        - Achieved actionable F1 **0.78** (+0.12); reduced FPR to **14.2%**
+        - Resulting paper accepted to NeurIPS 2025 LAW Workshop
+    - title: GenAI Engineer
+      institution: GoEngage
+      year: Jun 2025 – Aug 2025
+      description:
+        - Implemented semantic search outperforming keyword baselines
+        - Built agentic chatbot that calls backend APIs and generates analytical reports
 
-# - title: Contact
-#   type: map
-#   contents:
-#     - name: Location
-#       value: Fairfax, VA
-#     - name: Phone
-#       value: +1 (434) 254-9053
-#     - name: Email
-#       value: bwei2@gmu.edu
-#     - name: Website
-#       value: https://weibowen555.github.io/
-#     - name: LinkedIn
-#       value: https://www.linkedin.com/in/bowen-wei-9485a1192/
+- title: Professional Service
+  type: list
+  contents:
+    - >
+      Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP),  
+      KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
+
+- title: Contact
+  type: map
+  contents:
+    - name: Location
+      value: Fairfax, VA
+    - name: Phone
+      value: +1 (434) 254-9053
+    - name: Email
+      value: bwei2@gmu.edu
+    - name: Website
+      value: https://weibowen555.github.io/
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/bowen-wei-9485a1192/
