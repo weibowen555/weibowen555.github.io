@@ -398,7 +398,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-making-sense-of-llm-decisions-a-prototype-based-framework-for-explainable-classification-has-been-accepted-for-an-oral-presentation-at-aaai-2026",
+            },},{id: "news-our-paper-protolens-advancing-prototype-learning-for-fine-grained-interpretability-in-text-classification-has-been-accepted-to-the-main-conference-at-acl-2025",
+          title: '🎉 Our paper “ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification”...',
+          description: "",
+          section: "News",},{id: "news-our-paper-making-sense-of-llm-decisions-a-prototype-based-framework-for-explainable-classification-has-been-accepted-for-an-oral-presentation-at-aaai-2026",
           title: '🎉 Our paper “Making Sense of LLM Decisions: A Prototype-based Framework for Explainable...',
           description: "",
           section: "News",},{id: "projects-project-1",
