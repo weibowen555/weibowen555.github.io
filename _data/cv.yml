@@ -1,97 +1,106 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# CV shown at /cv/ in al-folio (when assets/json/resume.json is absent)
+# You can reorder whole sections or items freely.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. in Computer Science
+      institution: George Mason University, Fairfax, VA
+      year: Expected 2028
+    - title: M.S. in Computer Science
+      institution: University of Virginia
+      year: 2021–2023
+    - title: B.S. in Computer Science
+      institution: Xidian University
+      year: 2016–2021
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - >
+      Trustworthy and interpretable AI for large language models; prototype-based,
+      symbolic, and explanation-driven methods; RL and post-training techniques for
+      evidence-grounded, verifiable reasoning.
+
+- title: Publications
+  type: list
+  contents:
+    - >
+      **AAAI 2026 (Oral)** — **Bowen Wei**, Ziwei Zhu. *Making Sense of LLM Decisions:
+      A Prototype-based Framework for Explainable Classification.*
+    - >
+      **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu. *CAAC: Confidence-Aware
+      Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
+    - >
+      **ACL 2025 (Main)** — **Bowen Wei**, Ziwei Zhu. *ProtoLens: Advancing Prototype
+      Learning for Fine-Grained Interpretability in Text Classification.*
+    - >
+      **NeurIPS 2025 LAW Workshop** — **Bowen Wei**, Yuan Shen Tay, Howard Liu,
+      Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan. *CORTEX: Collaborative LLM Agents
+      for High-Stakes Alert Triage.*
+    - >
+      **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu. *Neural Symbolic Logical
+      Rule Learner for Interpretable Learning.*
+    - >
+      **In submission** — Chahat Raj, **Bowen Wei**, Ziwei Zhu. *VIGNETTE: Socially
+      Grounded Bias Evaluation for Vision-Language Models.*
+    - >
+      **M.Sc. Thesis** — **Bowen Wei**, Yiling Jia, Hongning Wang. *An Empirical Study
+      of Neural Contextual Bandit Algorithms.*
+
+- title: Current Projects
+  type: time_table
+  contents:
+    - title: Evidence-Attribution Reinforcement Learning (EA-RL)
+      institution: Target venue — ICML 2026
+      year: Oct 2025 – Present
+      description:
+        - Multi-agent LLM distillation with explicit evidence attribution/reliance
+        - Rewarding models for *using the right evidence*, not just correctness
+        - Evidence-aware post-training building on CoA; aims for faithful, verifiable reasoning
+    - title: NeuroSymbolic Autoencoder for Interpretable Recommendation
+      institution: Target venue — SIGIR 2026
+      year: Oct 2025 – Present
+      description:
+        - Hybrid neural–symbolic model with rule-based latent spaces
+        - Rule Network as encoder/decoder for transparent recommendations
+        - Unifies neuro-symbolic learning and explainable personalization
+
+- title: Internship
+  type: time_table
+  contents:
+    - title: AI Agents Developer
+      institution: Fluency Security
+      year: Jun 2025 – Aug 2025
+      description:
+        - Proposed/built **CORTEX** multi-agent LLM architecture for SOC alert triage
+        - Curated analyst-trace dataset (10+ scenarios) with tool outputs
+        - Actionable F1 **0.78** (+0.12); reduced FPR to **14.2%**
+        - NeurIPS 2025 LAW Workshop paper accepted
+    - title: GenAI Engineer
+      institution: GoEngage
+      year: Jun 2025 – Aug 2025
+      description:
+        - Implemented semantic search beating keyword baselines
+        - Built agentic chatbot that calls backend APIs and produces analytical reports
+
+- title: Professional Service
+  type: list
+  contents:
+    - >
+      Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP),
+      KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
+
+- title: Contact
+  type: map
+  contents:
+    - name: Location
+      value: Fairfax, VA
+    - name: Phone
+      value: +1 (434) 254-9053
+    - name: Email
+      value: bwei2@gmu.edu
+    - name: Website
+      value: https://weibowen555.github.io/
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/bowen-wei-9485a1192/
