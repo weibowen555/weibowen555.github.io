@@ -18,7 +18,7 @@ profile:
 
 # Bowen Wei
 
-PhD student in <dept>, George Mason University. I work on **trustworthy & interpretable AI** for LLMs —
+PhD student in Computer Science, George Mason University. I work on **trustworthy & interpretable AI** for LLMs —
 prototype-based explanations, neuro-symbolic methods, and post-training for evidence-grounded reasoning.
 
 <!-- News and latest posts blocks -->
