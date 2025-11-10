@@ -16,10 +16,9 @@ profile:
     bwei2@gmu.edu
 ---
 
-# Bowen Wei
+# About Me
 
-PhD student in Computer Science, George Mason University. I work on **trustworthy & interpretable AI** for LLMs —
-prototype-based explanations, neuro-symbolic methods, and post-training for evidence-grounded reasoning.
+Hello! My name is Bowen Wei, and I am a third-year Ph.D. student in Computer Science at George Mason University. I am fortunate to be advised by Professor Ziwei Zhu.
 
 <!-- News and latest posts blocks -->
 {% include news.liquid %}          <!-- remove this line to hide “news” -->
