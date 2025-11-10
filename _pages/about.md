@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-nav: true
+nav: false
 # order in navbar (optional)
 nav_order: 1
 
