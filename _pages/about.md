@@ -16,7 +16,6 @@ profile:
     bwei2@gmu.edu
 ---
 
-# About Me
 
 Hello! My name is Bowen Wei, and I am a third-year Ph.D. student in Computer Science at George Mason University. I am fortunate to be advised by Professor Ziwei Zhu.
 
