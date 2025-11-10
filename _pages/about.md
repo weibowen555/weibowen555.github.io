@@ -21,10 +21,10 @@ profile:
 Hello! My name is Bowen Wei, and I am a third-year Ph.D. student in Computer Science at George Mason University. I am fortunate to be advised by Professor Ziwei Zhu.
 
 My research spans trustworthy and interpretable AI and agentic reinforcement learning (RL) for large language models. I develop prototypebased,
-symbolic, and explanation-driven methods to make model behavior transparent, fair, and robust, enabling users to understand and
+symbolic, and explanation-driven methods to make model behavior transparent, and robust, enabling users to understand and
 trust AI decisions in high-stakes settings. In parallel, I study RL and post-training techniques that distill multi-agent reasoning into single,
 verifiable agents—improving reasoning quality, evidence attribution, and causal grounding. Together, these directions aim to advance AI
-systems that are both interpretable in their inner logic and competent in autonomous, evidence-based reasoning.
+systems that are both interpretable and competent in reasoning.
 
 <!-- News and latest posts blocks -->
 {% include news.liquid %}          <!-- remove this line to hide “news” -->
