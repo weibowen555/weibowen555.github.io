@@ -38,7 +38,7 @@
       "startDate": "2023-08-01",
       "endDate": "2028-05-01",
       "score": "",
-      "courses": ["Trustworthy and Interpretable AI",  "LLM Explainability", "LLM Agents"]
+      "courses": ["Trustworthy and Interpretable AI", "LLM Explainability", "LLM Agents"]
     },
     {
       "institution": "University of Virginia",
@@ -128,10 +128,7 @@
     {
       "name": "NeuroSymbolic Autoencoder for Interpretable Recommendation",
       "summary": "Integrates neural and symbolic reasoning for explainable recommendation systems using rule-based latent spaces.",
-      "highlights": [
-        "Employs Rule Network as encoder-decoder for transparent RecSys.",
-        "Targets SIGIR 2026 for publication."
-      ],
+      "highlights": ["Employs Rule Network as encoder-decoder for transparent RecSys.", "Targets SIGIR 2026 for publication."],
       "startDate": "2025-10-01",
       "endDate": "",
       "url": ""
@@ -191,12 +188,7 @@
   "interests": [
     {
       "name": "Research in Explainable AI",
-      "keywords": [
-        "LLM Interpretability",
-        "Prototype-Based Reasoning",
-        "Neural-Symbolic Learning",
-        "Evidence-Grounded RL"
-      ]
+      "keywords": ["LLM Interpretability", "Prototype-Based Reasoning", "Neural-Symbolic Learning", "Evidence-Grounded RL"]
     }
   ],
   "awards": [],

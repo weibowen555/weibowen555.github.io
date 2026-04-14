@@ -9,14 +9,11 @@ nav_order: 1
 # profile card at the right
 profile:
   align: right
-  image: prof_pic.jpg   # put your headshot in assets/img/
+  image: prof_pic.jpg # put your headshot in assets/img/
   address: |
     Fairfax, VA
     +1 (434) 254-9053
     bwei2@gmu.edu
-
-
-
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: False # includes social icons at the bottom of the page
@@ -30,9 +27,7 @@ latest_posts:
   enabled: False
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-
 ---
-
 
 Hello! My name is Bowen Wei, and I am a third-year Ph.D. student in Computer Science at George Mason University. I am fortunate to be advised by Professor Ziwei Zhu.
 

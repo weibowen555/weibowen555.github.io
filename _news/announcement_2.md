@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-
 🎉 Our paper “**ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification**” has been accepted to the **main conference at ACL 2025**!
