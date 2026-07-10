@@ -78,6 +78,13 @@
       "url": ""
     },
     {
+      "name": "Knowing Bias, Doing Better: Mitigating Social Bias in LLMs via Know-Bias Neuron Enhancement",
+      "publisher": "ICML 2026",
+      "releaseDate": "2026",
+      "summary": "Accepted by ICML 2026.",
+      "url": "https://arxiv.org/abs/2601.21864"
+    },
+    {
       "name": "CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage",
       "publisher": "NeurIPS 2025 LAW Workshop",
       "releaseDate": "2025-09-22",
@@ -90,6 +97,20 @@
       "releaseDate": "2025-11-10",
       "summary": "Presents an attention calibration method that mitigates hallucinations in large vision-language models by accounting for model confidence.",
       "url": ""
+    },
+    {
+      "name": "A Logical-Rule Autoencoder for Interpretable Recommendations",
+      "publisher": "In Submission",
+      "releaseDate": "2026",
+      "summary": "Authors: Bowen Wei*, Jinhao Pan*, Yuqing Zhou, Ziwei Zhu. * Equal contribution.",
+      "url": "https://arxiv.org/abs/2604.04270"
+    },
+    {
+      "name": "Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback",
+      "publisher": "In Submission",
+      "releaseDate": "2026-05-27",
+      "summary": "Authors: Bowen Wei, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.",
+      "url": "https://arxiv.org/abs/2605.28010"
     },
     {
       "name": "Neural Symbolic Logical Rule Learner for Interpretable Learning",
