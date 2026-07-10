@@ -40,12 +40,23 @@
       *ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification.*  
       _(Acceptance: 1,699 / 8,360 ≈ 20.3%)_
     - >
+      **ICML 2026** — Jinhao Pan, Chahat Raj, Anjishnu Mukherjee, Sina Mansouri,
+      **Bowen Wei**, Shloka Yada, Ziwei Zhu.
+      *Knowing Bias, Doing Better: Mitigating Social Bias in LLMs via Know-Bias Neuron Enhancement.*
+    - >
       **NeurIPS 2025 LAW Workshop** — **Bowen Wei**, Yuan Shen Tay, Howard Liu,  
       Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan.  
       *CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage.*
     - >
       **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu.  
       *CAAC: Confidence-Aware Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
+    - >
+      **In submission** — **Bowen Wei<sup>*</sup>**, Jinhao Pan<sup>*</sup>, Yuqing Zhou, Ziwei Zhu.
+      *A Logical-Rule Autoencoder for Interpretable Recommendations.*
+      _* Equal contribution._
+    - >
+      **In submission** — **Bowen Wei**, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.
+      *Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback.*
     - >
       **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu.  
       *Neural Symbolic Logical Rule Learner for Interpretable Learning.*
