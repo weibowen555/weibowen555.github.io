@@ -181,19 +181,21 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical{% if entry.note_highlight %} publication-highlight{% endif %}">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
+    {% if entry.award %}
+      <div class="publication-highlight">
+        {{ entry.award | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.url %}
         <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
-      {% endif %}
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </a>
       {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
@@ -340,13 +342,6 @@
           {% endif %}
         </div>
       {% endif %}
-    {% endif %}
-
-    {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
-      </div>
     {% endif %}
 
     {% if entry.abstract %}

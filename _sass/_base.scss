@@ -777,6 +777,11 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .publication-highlight {
+        color: var(--global-highlight-color);
+        font-weight: 700;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
