@@ -782,6 +782,35 @@ footer.sticky-bottom {
         font-weight: 700;
       }
 
+      .publication-category {
+        font-weight: 700;
+        text-align: center;
+
+        &-main {
+          color: var(--publication-category-main-color);
+        }
+
+        &-oral {
+          color: var(--publication-category-oral-color);
+        }
+
+        &-findings {
+          color: var(--publication-category-findings-color);
+        }
+
+        &-workshop {
+          color: var(--publication-category-workshop-color);
+        }
+
+        &-preprint {
+          color: var(--publication-category-preprint-color);
+        }
+
+        &-thesis {
+          color: var(--publication-category-thesis-color);
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);

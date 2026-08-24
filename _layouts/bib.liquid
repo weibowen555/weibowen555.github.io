@@ -43,7 +43,7 @@
         {% endif %}
       {% endif %}
       {% if entry.abbr_note %}
-        <div class="publication-highlight text-center">{{ entry.abbr_note }}</div>
+        <div class="publication-category publication-category-{{ entry.abbr_note_type | default: 'other' }}">{{ entry.abbr_note }}</div>
       {% endif %}
     </div>
   {% endif %}

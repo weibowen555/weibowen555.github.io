@@ -20,6 +20,12 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
+  --publication-category-main-color: #c62828;
+  --publication-category-oral-color: #e65100;
+  --publication-category-findings-color: #1565c0;
+  --publication-category-workshop-color: #6a1b9a;
+  --publication-category-preprint-color: #455a64;
+  --publication-category-thesis-color: #00695c;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -91,6 +97,12 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --publication-category-main-color: #ff6b6b;
+  --publication-category-oral-color: #ffb74d;
+  --publication-category-findings-color: #64b5f6;
+  --publication-category-workshop-color: #ce93d8;
+  --publication-category-preprint-color: #b0bec5;
+  --publication-category-thesis-color: #80cbc4;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
