@@ -182,13 +182,27 @@
       {{ periodical | strip }}
     </div>
     {% if entry.note %}
-      <div class="periodical{% if entry.note_highlight %} publication-highlight{% endif %}">
-        {{ entry.note | strip }}
+      {% assign rendered_note = entry.note %}
+      {% if entry.note_highlight %}
+        {% capture note_highlight_markup %}<span class="publication-highlight">{{ entry.note_highlight }}</span>{% endcapture %}
+        {% assign rendered_note = rendered_note | replace: entry.note_highlight, note_highlight_markup %}
+      {% endif %}
+      {% if entry.note_highlight_secondary %}
+        {% capture note_highlight_secondary_markup %}<span class="publication-highlight">{{ entry.note_highlight_secondary }}</span>{% endcapture %}
+        {% assign rendered_note = rendered_note | replace: entry.note_highlight_secondary, note_highlight_secondary_markup %}
+      {% endif %}
+      <div class="periodical">
+        {{ rendered_note | strip }}
       </div>
     {% endif %}
     {% if entry.award %}
-      <div class="publication-highlight">
-        {{ entry.award | strip }}
+      {% assign rendered_award = entry.award %}
+      {% if entry.award_name %}
+        {% capture award_highlight_markup %}<span class="publication-highlight">{{ entry.award_name }}</span>{% endcapture %}
+        {% assign rendered_award = rendered_award | replace: entry.award_name, award_highlight_markup %}
+      {% endif %}
+      <div class="periodical">
+        {{ rendered_award | strip }}
       </div>
     {% endif %}
 
