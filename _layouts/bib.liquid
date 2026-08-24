@@ -42,6 +42,9 @@
           %}
         {% endif %}
       {% endif %}
+      {% if entry.abbr_note %}
+        <div class="publication-highlight text-center">{{ entry.abbr_note }}</div>
+      {% endif %}
     </div>
   {% endif %}
 
