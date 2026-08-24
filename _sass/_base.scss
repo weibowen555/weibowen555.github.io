@@ -917,6 +917,20 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+
+  &.selected-publications {
+    @media (min-width: 576px) {
+      ol.bibliography li .row > .col-sm-8 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+      }
+
+      ol.bibliography li .row > .col-sm-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 // Rouge Color Customization
