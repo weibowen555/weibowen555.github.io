@@ -55,8 +55,9 @@
       *A Logical-Rule Autoencoder for Interpretable Recommendations.*
       _* Equal contribution._
     - >
-      **In submission** — **Bowen Wei**, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.
-      *Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback.*
+      **EMNLP 2026 (Main)** — **Bowen Wei**, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.<br>
+      *COSE: Confidence-Orchestrated Self-Evolution for Effective LLM Reasoning.*<br>
+      _(Acceptance: 2,719 / 17,669 ≈ 15.4%)_
     - >
       **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu.  
       *Neural Symbolic Logical Rule Learner for Interpretable Learning.*

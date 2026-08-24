@@ -106,10 +106,10 @@
       "url": "https://arxiv.org/abs/2604.04270"
     },
     {
-      "name": "Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback",
-      "publisher": "In Submission",
-      "releaseDate": "2026-05-27",
-      "summary": "Authors: Bowen Wei, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.",
+      "name": "COSE: Confidence-Orchestrated Self-Evolution for Effective LLM Reasoning",
+      "publisher": "EMNLP 2026 (Main)",
+      "releaseDate": "2026-08-24",
+      "summary": "Authors: Bowen Wei, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu. Accepted to the Main Conference (2,719 / 17,669; 15.4% acceptance rate).",
       "url": "https://arxiv.org/abs/2605.28010"
     },
     {
