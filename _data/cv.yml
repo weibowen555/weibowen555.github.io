@@ -1,14 +1,12 @@
 # CV shown at /cv/ in al-folio (when assets/json/resume.json is absent)
 # You can reorder whole sections or items freely.
 
-# CV shown at /cv/ in al-folio (when assets/json/resume.json is absent)
-
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
       institution: George Mason University, Fairfax, VA
-      year: Expected 2028
+      year: Expected as early as Sep 2027
     - title: M.S. in Computer Science
       institution: University of Virginia
       year: 2021–2023
@@ -20,96 +18,92 @@
   type: list
   contents:
     - >
-      My research spans trustworthy and interpretable AI for large language models.  
-      I develop prototype-based, symbolic, and explanation-driven methods to make model behavior  
-      transparent, fair, and robust, enabling users to understand and trust AI decisions in high-stakes settings.  
-      In parallel, I study reinforcement learning and post-training techniques that distill multi-agent reasoning  
-      into single, verifiable agents—improving reasoning quality, evidence attribution, and causal grounding.  
-      Together, these directions aim to advance AI systems that are both interpretable in their inner logic and  
-      competent in autonomous, evidence-based reasoning.
+      My research sits at the intersection of trustworthy AI and LLM reasoning, with a growing focus on
+      agentic AI safety and reinforcement learning for building reliable, autonomous systems. I develop
+      interpretable learning methods—including prototype-based and neuro-symbolic approaches—that make model
+      decisions transparent, auditable, and robust for high-stakes applications, revealing what evidence or
+      rules drive a prediction and when the model may fail.
+    - >
+      In parallel, I investigate agent safety evaluation and reinforcement learning techniques for agentic
+      reasoning, including safety benchmarking under adversarial prompt injection and self-play frameworks.
+      Ultimately, I aim to build AI systems that are both interpretable in their inner logic and safe and
+      reliable in autonomous, evidence-grounded decision-making.
 
 - title: Publications
   type: list
   contents:
     - >
-      **AAAI 2026 (Oral)** — **Bowen Wei**, Ziwei Zhu.  
-      *Making Sense of LLM Decisions: A Prototype-based Framework for Explainable Classification.*  
-      _(Acceptance: 4,176 / 23,680 ≈ 17.6%)_
+      **Under review (ICLR 2027)** — **Bowen Wei**, Han Xie, Jianfeng He, Soumya Sanyal, Eti Rastogi, Yunyi Zhang, Zheng Qi, Jonathan Wu.<br>
+      *HILT: Hazard-Informed Localized Teaching for Safer Language Models.*
     - >
-      **ACL 2025 (Main)** — **Bowen Wei**, Ziwei Zhu.  
-      *ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification.*  
-      _(Acceptance: 1,699 / 8,360 ≈ 20.3%)_
+      **Under submission** — **Bowen Wei**, Yunbei Zhang, Jinhao Pan, Kai Mei, Xiao Wang, Jihun Hamm, Ziwei Zhu, Yingqiang Ge.<br>
+      *ClawSafety: "Safe" LLMs, Unsafe Agents.*
     - >
-      **ICML 2026** — Jinhao Pan, Chahat Raj, Anjishnu Mukherjee, Sina Mansouri,
-      **Bowen Wei**, Shloka Yada, Ziwei Zhu.
-      *Knowing Bias, Doing Better: Mitigating Social Bias in LLMs via Know-Bias Neuron Enhancement.*
-    - >
-      **NeurIPS 2025 LAW Workshop** — **Bowen Wei**, Yuan Shen Tay, Howard Liu,  
-      Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan.  
-      *CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage.*
-    - >
-      **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu.  
-      *CAAC: Confidence-Aware Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
-    - >
-      **In submission** — **Bowen Wei<sup>*</sup>**, Jinhao Pan<sup>*</sup>, Yuqing Zhou, Ziwei Zhu.
-      *A Logical-Rule Autoencoder for Interpretable Recommendations.*
-      _* Equal contribution._
-    - >
-      **EMNLP 2026 (Main)** — **Bowen Wei**, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.<br>
-      *COSE: Confidence-Orchestrated Self-Evolution for Effective LLM Reasoning.*<br>
-      _(Acceptance: 2,719 / 17,669 ≈ 15.4%)_
-    - >
-      **Under review (ICLR 2026)** — **Bowen Wei**, Ziwei Zhu.  
+      **Under submission** — **Bowen Wei**, Ziwei Zhu.<br>
       *Neural Symbolic Logical Rule Learner for Interpretable Learning.*
     - >
-      **In submission** — Chahat Raj, **Bowen Wei**, Ziwei Zhu.  
+      **EMNLP 2026 (Main)** — **Bowen Wei**, Nan Wang, Yuqing Zhou, Jinhao Pan, Ziwei Zhu.<br>
+      *COSE: Confidence-Orchestrated Self-Evolution for Effective LLM Reasoning.*
+    - >
+      **IEEE BigData 2026** — **Bowen Wei<sup>*</sup>**, Jinhao Pan<sup>*</sup>, Yuqing Zhou, Ziwei Zhu.<br>
+      *A Logical-Rule Autoencoder for Interpretable Recommendations.*<br>
+      _(* Equal contribution. Acceptance: 201 / 1,046 ≈ 19.2%)_
+    - >
+      **AAAI 2026 (Oral)** — **Bowen Wei**, Mehrdad Fazli, Ziwei Zhu.<br>
+      *Making Sense of LLM Decisions: A Prototype-based Framework for Explainable Classification.*<br>
+      _(Acceptance: 4,176 / 23,680 ≈ 17.6%)_
+    - >
+      **ACL 2025 (Main)** — **Bowen Wei**, Ziwei Zhu.<br>
+      *ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification.*<br>
+      _(Acceptance: 1,699 / 8,360 ≈ 20.3%)_
+    - >
+      **NeurIPS LAW 2025** — **Bowen Wei**, Yuan Shen Tay, Howard Liu, Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan.<br>
+      *CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage.*
+    - >
+      **M.Sc. Thesis** — **Bowen Wei**, Yiling Jia, Hongning Wang.<br>
+      *An Empirical Study of Neural Contextual Bandit Algorithms.*
+    - >
+      **ACL 2026 (Oral)** — Chahat Raj, **Bowen Wei**, Aylin Caliskan, Antonios Anastasopoulos, Ziwei Zhu.<br>
       *VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models.*
     - >
-      **M.Sc. Thesis** — **Bowen Wei**, Yiling Jia, Hongning Wang.  
-      *An Empirical Study of Neural Contextual Bandit Algorithms.*
+      **ACL 2026 (Findings)** — Mehrdad Fazli, **Bowen Wei**, Ziwei Zhu.<br>
+      *Context-Aware Decoding for Faithful Vision-Language Generation.*
+    - >
+      **ICML 2026** — Jinhao Pan, Chahat Raj, Anjishnu Mukherjee, Sina Mansouri, **Bowen Wei**, Shloka Yada, Ziwei Zhu.<br>
+      *Knowing Bias, Doing Better: Mitigating Social Bias in LLMs via Know-Bias Neuron Enhancement.*
+    - >
+      **WACV 2026** — Mehrdad Fazli, **Bowen Wei**, Ahmet Sari, Ziwei Zhu.<br>
+      *CAAC: Confidence-Aware Attention Calibration to Reduce Hallucinations in Large Vision-Language Models.*
 
-- title: Current Projects
+- title: Industry Experience
   type: time_table
   contents:
-    - title: Evidence-Attribution Reinforcement Learning (EA-RL)
-      institution: Target venue — ICML 2026
-      year: Oct 2025 – Present
+    - title: Applied Scientist Intern
+      institution: Amazon Web Services (AWS), Amazon Bedrock Guardrails, Seattle, WA
+      year: May 2026 – Aug 2026
       description:
-        - Designing multi-agent LLM distillation with explicit evidence attribution and reliance
-        - Rewarding models for *using the right evidence*, not just correctness
-        - Building on CoA to enable faithful, verifiable reasoning
-        - Aiming to improve causal faithfulness and interpretability of reasoning models
-    - title: NeuroSymbolic Autoencoder for Interpretable Recommendation
-      institution: Target venue — SIGIR 2026
-      year: Oct 2025 – Present
-      description:
-        - Developing a hybrid neuro-symbolic model with rule-based latent spaces
-        - Using a Rule Network as both encoder and decoder for transparent recommendations
-        - Bridging symbolic reasoning and neural personalization
-
-- title: Internship
-  type: time_table
-  contents:
+        - Developed **HILT**, converting temporal changes in safety-verifier signals into localized supervision for safer foundation-model agents
+        - Designed recoverable-window localization, privileged trajectory repair, and on-policy distillation; the student policy needs no safety verifier at inference
+        - On 1,054 harmful agent trajectories, reached **0.717** exact and **0.786** within-one-step trigger-localization accuracy; the estimated intervention point precedes irreversible commitment in **93.1%** of trajectories
+        - Submitted to ICLR 2027
     - title: AI Agents Developer
       institution: Fluency Security
       year: Jun 2025 – Aug 2025
       description:
-        - Proposed and built **CORTEX**, a multi-agent LLM architecture for SOC alert triage
-        - Curated analyst-trace dataset (10+ scenarios) with tool outputs
-        - Achieved actionable F1 **0.78** (+0.12); reduced FPR to **14.2%**
-        - Resulting paper accepted to NeurIPS 2025 LAW Workshop
+        - Proposed and built **CORTEX**, a role-specialized multi-agent LLM architecture for SOC alert triage
+        - Improved actionable F1 from 0.66 to **0.78** and cut false positives from 24.9% to **14.2%** over the strongest single-agent baseline
+        - Resulting paper accepted to the NeurIPS 2025 LAW Workshop
     - title: GenAI Engineer
       institution: GoEngage
       year: Jun 2025 – Aug 2025
       description:
-        - Implemented semantic search outperforming keyword baselines
-        - Built agentic chatbot that calls backend APIs and generates analytical reports
+        - Implemented a semantic search engine that improved retrieval accuracy over keyword matching
 
 - title: Professional Service
   type: list
   contents:
     - >
-      Reviewer / Sub-reviewer: ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP),  
+      Reviewer / Sub-reviewer: COLM 2026, ICML 2026, NeurIPS 2026, ARR (Dec 2024; Feb 2025—ACL; May 2025—EMNLP),
       KDD 2024, ACML 2024–2025, SSCI 2025, CAIS.
 
 - title: Contact
