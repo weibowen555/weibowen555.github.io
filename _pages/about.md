@@ -37,11 +37,11 @@ My research centers on trustworthy AI, with interpretability at its core. I desi
 
 ## Publications
 
+- **[WSDM 2027 Main]** **Wei B\***, Zhu Z. [_Interpretable Classification via a Rule Network with Selective Logical Operators._](https://arxiv.org/abs/2408.11918)
 - **[ICML 2026]** Pan J, Raj C, Mukherjee A, Mansouri S, **Wei B**, Yada S, Zhu Z. [_Knowing Bias, Doing Better: Mitigating Social Bias in LLMs via Know-Bias Neuron Enhancement._](https://arxiv.org/abs/2601.21864)
 - **[ACL 2025 Main]** **Wei B\***, Zhu Z. [_ProtoLens: Advancing Prototype Learning for Fine-Grained Interpretability in Text Classification._](https://arxiv.org/abs/2410.17546)
 - **[In submission]** **Wei B\***, Pan J\*, Zhou Y, Zhu Z. [_A Logical-Rule Autoencoder for Interpretable Recommendations._](https://arxiv.org/abs/2604.04270) *(equal contribution)*
 - **[In submission]** **Wei B\***, Wang N, Zhou Y, Pan J, Zhu Z. [_Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback._](https://arxiv.org/abs/2605.28010)
-- **[In submission]** **Wei B\***, Zhu Z. [_Neural Symbolic Logical Rule Learner for Interpretable Learning._](https://arxiv.org/abs/2408.11918)
 - **[In submission]** **Wei B\***, Zhu Z. [_Learning to Explain: Prototype-Based Surrogate Models for LLM Classification._](https://arxiv.org/abs/2505.18970)
 - **[In submission]** Raj C, **Wei B\***, Zhu Z. [_VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models._](https://arxiv.org/abs/2505.22897)
 - **[In submission]** Fazli M, **Wei B\***, Zhu Z. [_Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration._](https://arxiv.org/abs/2505.21472)
